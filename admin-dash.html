@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/static/admin dashboard page.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Smart Attend</h2>
+            <ul class="menu">
+                <li id="dashboard">
+                    <img src="/assets/dash.png" alt="Dashboard Icon" class="icon"> Dashboard
+                </li>
+                <li id="application">
+                    <img src="/assets/app.png" alt="Application Icon" class="icon"> Application
+                </li>
+            </ul>
+            <div id="signout" class="sign-out">
+                <i class="fa-solid fa-right-from-bracket"></i> Sign Out
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="header">
+                <h1>Dashboard</h1>
+                <div class="admin">
+                    <span>Admin</span>
+                    <div class="profile-circle">A.D</div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="stats-card">
+                    <h3>Total No of Std:</h3>
+                    <h1>100</h1>
+                </div>
+                <div class="stats-card">
+                    <h3>Present Std:</h3>
+                    <h1>89</h1>
+                </div>
+                <div class="stats-card">
+                    <h3>Absent Std:</h3>
+                    <h1>11</h1>
+                </div>
+            </div>
+
+            <div class="table-container">
+                <div class="table-header">
+                    <h2>Present Std:</h2>
+                    <button id="clearStorageButton" class="present-button clear ">Clear</button>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>username:</th>
+                            <th>Date:</th>
+                            <th>Status:</th>
+                        </tr>
+                    </thead>
+                    <tbody id="display-data">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="admin-dash.js"></script>
+</body>
+</html>
