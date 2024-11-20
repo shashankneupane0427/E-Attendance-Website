@@ -18,7 +18,7 @@
     // Add an event listener to the div
     signout.addEventListener('click', function() {
         // Redirect to another HTML page
-        window.location.href = 'login.html';
+        window.location.href = 'index.html';
       });
 
       document.addEventListener('DOMContentLoaded', () => {
