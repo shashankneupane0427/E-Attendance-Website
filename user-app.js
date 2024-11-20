@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const title = document.getElementById('title').value;
       const details = document.getElementById('details').value;
       const currentDate = new Date().toISOString().split('T')[0]; 
-      const username = "sudeep100"; 
+      const username = "Shashank"; 
 
       
       const application = { username, title, details, date: currentDate, status: 'PENDING' };
@@ -65,7 +65,7 @@ function loadApplicationData() {
   tableBody.innerHTML = '';
 
   applications.forEach(application => {
-      if (application.username === "sudeep100") { 
+      if (application.username === "Shashank") { 
           const statusClass = application.status.toLowerCase(); 
           const newRow = `
               <tr>
