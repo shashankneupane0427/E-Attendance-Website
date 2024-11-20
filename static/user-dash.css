@@ -101,10 +101,9 @@ header h1 {
 .stats {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 100%;;
     background-color: white;
     padding: 25px;
-    border-radius: 10px;
     margin-bottom: 25px;
 }
 

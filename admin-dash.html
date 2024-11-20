@@ -13,7 +13,7 @@
             <h2>Smart Attend</h2>
             <ul class="menu">
                 <li id="dashboard">
-                    <img src="/assets/dash.png" alt="Dashboard Icon" class="icon"> Dashboard
+                    <img src="assets/dash.png" alt="Dashboard Icon" class="icon"> Dashboard
                 </li>
                 <li id="application">
                     <img src="/assets/app.png" alt="Application Icon" class="icon"> Application
@@ -24,41 +24,48 @@
             </div>
         </div>
 
-        <div class="main-content">
-            <div class="header">
-                <h1>Dashboard</h1>
-                <div class="admin">
-                    <span>Admin</span>
-                    <div class="profile-circle">A.D</div>
+         <!-- Main Content -->
+         <div class="main-content">
+            <header>
+                <div class="header-content">
+                    <h1><img src="/assets/dash.jpg" alt="Dashboard Icon" class="icon"> Dashboard</h1>
+                    <div class="user-info">
+                        <span>Admin</span>
+                        <div class="user-avatar">SA</div>
+                    </div>
                 </div>
-            </div>
+            </header>
 
-            <div class="content">
-                <div class="stats-card">
-                    <h3>Total No of Std:</h3>
-                    <h1>100</h1>
+            <!-- Statistics Section -->
+            <section class="stats">
+                <div class="stat-item">
+                    <img src="/assets/icons8-attendance-48.png" alt="Present Icon" class="stat-icon">
+                    <span class="stat-number-present">0</span>
+                    <span class="stat-label">Present</span>
                 </div>
-                <div class="stats-card">
-                    <h3>Present Std:</h3>
-                    <h1>89</h1>
+                <div class="stat-item">
+                    <img src="/assets/absent.jpg" alt="Absent Icon" class="stat-icon">
+                    <span class="stat-number-absent">0</span>
+                    <span class="stat-label">Absent</span>
                 </div>
-                <div class="stats-card">
-                    <h3>Absent Std:</h3>
-                    <h1>11</h1>
+                <div class="stat-item">
+                    <img src="/assets/working days icon.jpg" alt="Working Days Icon" class="stat-icon">
+                    <span class="stat-number">30</span>
+                    <span class="stat-label">Working Days</span>
                 </div>
-            </div>
+            </section>
 
             <div class="table-container">
                 <div class="table-header">
-                    <h2>Present Std:</h2>
+                    <h3>Employee</h3>
                     <button id="clearStorageButton" class="present-button clear ">Clear</button>
                 </div>
                 <table>
                     <thead>
                         <tr>
-                            <th>username:</th>
-                            <th>Date:</th>
-                            <th>Status:</th>
+                            <th>Username</th>
+                            <th>Date</th>
+                            <th>Status</th>
                         </tr>
                     </thead>
                     <tbody id="display-data">
