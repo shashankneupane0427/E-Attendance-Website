@@ -48,5 +48,5 @@ This is an E-Attendance system designed for seamless management of staff attenda
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repository/e-attendance.git
+   https://github.com/shashankneupane0427/E-Attendance-Website.git
    cd e-attendance
